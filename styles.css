@@ -57,7 +57,7 @@ h3 { font-size: 1.3rem; font-weight: 700; line-height: 1.2; }
 .advice-panel { align-items: start; border: 2px solid var(--ink); background: var(--light); padding: clamp(1.2rem, 4vw, 2.5rem); }
 .advice-panel ul { margin: 0; padding-inline-start: 1.25rem; }
 .advice-panel li + li { margin-top: .45rem; }
-#cooking { padding-bottom: 0; }
+#cooking { margin-bottom: 1rem; }
 #eating-out { margin-top: 1rem; }
 .footer { display: flex; justify-content: space-between; align-items: center; gap: .75rem; padding-block: 1.25rem; border-top: 2px solid var(--ink); }
 
