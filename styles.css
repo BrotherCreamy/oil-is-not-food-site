@@ -79,3 +79,7 @@ h3 { font-size: 1.3rem; font-weight: 700; line-height: 1.2; }
 .comparison { display: grid; grid-template-columns: minmax(0, 1fr) auto minmax(0, 1fr); align-items: center; }
 .comparison img { max-height: 145px; object-fit: contain; margin: 0; }
 .comparison span { font-weight: 900; padding-inline: .15rem; }
+
+.panel-art { width: 7rem; height: auto; margin-bottom: .7rem; }
+.advice-panel .panel-art { width: 8rem; }
+.label-card .panel-art { background: var(--paper); padding: .25rem; }
