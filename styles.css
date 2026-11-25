@@ -45,7 +45,7 @@ h3 { font-size: 1.3rem; font-weight: 700; line-height: 1.2; }
 .science > div { max-width: 76ch; padding-bottom: 1rem; }
 .science p + p { margin-top: .65rem; }
 .label-section { background: var(--ink); color: var(--paper); }
-.label-grid, .cooking-note { display: grid; gap: 1.25rem; }
+.label-grid, .advice-panel { display: grid; gap: 1.25rem; }
 .checklist, .oil-names { margin: 0; padding: 0; list-style: none; }
 .checklist li { border-top: 1px solid #7d7568; padding: .72rem 0; }
 .checklist span { display: block; }
@@ -54,8 +54,11 @@ h3 { font-size: 1.3rem; font-weight: 700; line-height: 1.2; }
 .oil-names { display: flex; flex-wrap: wrap; gap: .45rem; margin-block: .85rem; }
 .oil-names li { padding: .15rem .5rem; border: 1px solid var(--rule); font-size: .88rem; }
 .swap-grid img { width: 100%; height: auto; margin-bottom: .75rem; mix-blend-mode: multiply; }
-.cooking-note { border-top: 2px solid var(--ink); margin-top: 2rem; padding-top: 1.35rem; }
-.cooking-note p + p { margin-top: .75rem; }
+.advice-panel { align-items: start; border: 2px solid var(--ink); background: var(--light); padding: clamp(1.2rem, 4vw, 2.5rem); }
+.advice-panel ul { margin: 0; padding-inline-start: 1.25rem; }
+.advice-panel li + li { margin-top: .45rem; }
+#cooking { padding-bottom: 0; }
+#eating-out { margin-top: 1rem; }
 .footer { display: flex; justify-content: space-between; align-items: center; gap: .75rem; padding-block: 1.25rem; border-top: 2px solid var(--ink); }
 
 @media (min-width: 580px) {
@@ -68,7 +71,7 @@ h3 { font-size: 1.3rem; font-weight: 700; line-height: 1.2; }
   .hero { display: grid; grid-template-columns: 1fr 1fr; align-items: center; gap: 1rem; padding-block: 3rem; }
   .hero-art { margin-top: 0; }
   .swap-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
-  .cooking-note { grid-template-columns: 1fr 2fr; }
+  .advice-panel { grid-template-columns: 1fr 2fr; }
 }
 
 .swap-grid article > img, .comparison { height: 145px; margin-bottom: .75rem; }
